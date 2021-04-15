@@ -1,0 +1,75 @@
+{
+  "Entities": [
+    {
+      "Name": "PC",
+      "Transform": {
+        "Position": "0.0f 1.5f 0.0f",
+        "Orientation": "0.0f 0.0f 1.0f",
+        "Scale": "1.0f"
+      },
+      "Physics": [
+        {
+          "Shape": "Ball",
+          "Bone": "B_R_Foot",
+          "Radius": "1.f",
+          "Mass": "2.0f"
+        },
+        {
+          "Shape": "Ball",
+          "Bone": "B_L_Foot",
+          "Radius": "1.f",
+          "Mass": "2.0f"
+        }
+      ],
+      "Anima": [
+        {
+          "Name": "RPG",
+          "File": "data/models/RPG_Character/RPG-Character(FBX2013).FBX",
+          "Scale": ".015",
+          "Animations": [
+            {
+              "Name": "Idle",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Idle(FBX2013).fbx"
+            },
+            {
+              "Name": "WalkF",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Walk-Slow(FBX2013).fbx"
+            },
+            {
+              "Name": "RunF",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Run(FBX2013).fbx"
+            },
+            {
+              "Name": "WalkB",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Walk-Slow(FBX2013).fbx"
+            },
+            {
+              "Name": "RunB",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Run(FBX2013).fbx"
+            },
+            {
+              "Name": "Jump",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Jump(FBX2013).fbx"
+            },
+            {
+              "Name": "Punch",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Attack-R3(FBX2013).fbx"
+            },
+            {
+              "Name": "Roll",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Roll-Forward(FBX2013).fbx"
+            },
+            {
+              "Name": "Fall",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Fall(FBX2013).fbx"
+            },
+            {
+              "Name": "Death",
+              "File": "data/models/RPG_Character/RPG-Character_Unarmed-Death1(FBX2013).fbx"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
